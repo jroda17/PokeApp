@@ -15,7 +15,7 @@ export default function ImagePoke(props) {
     let mounted = true
     const setData = () => {
       if(props.data !== undefined && Object.keys(props.data).length !== 0 && props.data.front_default !== null && props.data.front_default !== undefined ){
-      if (props.data.front_female !== null) {
+      if (props.data.front_default !== null) {
         if(mounted){
         setImagePos({
           ...imagePos,
